@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: engineeringhub
+  description: |
+    Engineering Hub is a central documentation portal for MS engineers.
+  links:
+    - title: Website
+      url: http://eng.ms
+    - title: Documentation
+      url: https://eng.ms/help
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: experimental
